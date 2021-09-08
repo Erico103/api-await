@@ -7,7 +7,7 @@ getData = async () => {
       method: "GET",
     })
       .then(response => response.json())
-      .then(data => console.log(data));
+      return result
   } catch (err) {
     console.log("Error has occured");
   }
